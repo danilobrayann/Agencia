@@ -8,10 +8,10 @@ export default function  Header () {
         <nav>
             <img src={logo} alt="logo" />
 <ul>
-<a href="">Home</a>
-<a href="">Nossos Serviços</a>
-<a href="">Projetos</a>
-<a href="">Web Stories</a>
+<a href="">HOME</a>
+<a href="">NOSSOS SERVIÇOS</a>
+<a href="">PROJETOS</a>
+<a href="">WEB STORIES</a>
 <a href=""></a>
 <a href="" target='blank' className='orcamento' >Solicitar Orçamento</a>
 </ul>
