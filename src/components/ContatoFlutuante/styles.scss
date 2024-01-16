@@ -1,0 +1,24 @@
+
+.floating-box {
+    position: fixed;
+    bottom: 5%;
+    right: 10px;
+    width: 120px;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 9;
+    img{
+        width: 8vw;
+         
+ animation: bell 8s ease-in-out infinite;
+    }
+}
+
+@keyframes bell {
+    0% { transform: rotate(0deg); }
+  10% { transform: rotate(50deg); }
+  30% { transform: rotate(-100deg); }
+  45% { transform: rotate(15deg); }
+  55% { transform: rotate(-55deg); }
+  60% { transform: rotate(80deg); }
+}

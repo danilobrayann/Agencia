@@ -41,7 +41,8 @@ background-color:$corFundo2;
 
             &:hover{
           
-                color: $corHedar;
+                color: $corHeda2;
+             
                
         }
     }
@@ -58,9 +59,25 @@ background-color:$corFundo2;
         font-size: 15px;
         &:hover{
           
-            color: $corDoTexto;
-            background-color: $corHedar;
+            color: $corHeda2;
+            background-color: $corFundo2;
+            border: $corDoTexto solid 2px;
            
     }
     }
+    }
+    
+    .redesocial{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 10vw;
+        
+    }
+    .imagemSocial{
+        width: 1.8vw;
+        &:hover{
+            background-color: white;
+            border:  solid $corHeda2 3px;
+        }
     }
