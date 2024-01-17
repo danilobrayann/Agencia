@@ -15,7 +15,7 @@ const App: React.FC<AppProps> = () => {
   const progressCircle = useRef<SVGSVGElement | null>(null);
   const progressContent = useRef<HTMLSpanElement | null>(null);
 
-  const onAutoplayTimeLeft = (s: any, time: number, progress: number) => {
+  const onAutoplayTimeLeft = ( {}, time: number, progress: number) => {
     if (progressCircle.current) {
       progressCircle.current.style.setProperty('--progress', String(1 - progress));
     }
