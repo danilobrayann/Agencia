@@ -1,13 +1,5 @@
+@import "../../variables-color/styles.scss";
 
-  /* variavel de cores*/
-
-  $corFundo:rgb(61, 62, 232);
-  $corDoTexto:white;
-  $corHedar:#DC143C;
-  $corHeda2:#363636;
-  $progresso: #00FF7F;
-  
-  /* variavel de cores*/
 
 
 #app {
@@ -82,34 +74,30 @@
   }
   
   .swiper-pagination-bullet{
-    background-color: $progresso;
+    background-color: $corFundo2;
    width: 30px;
    height: 30px;
-   border: solid $progresso 1px;
+   border: solid $corFundo2 1px;
   }
 .swiper-button-next::after{
-color: $progresso;
+color: $corFundo2;
 font-size: 55px;
 font-weight: 900;
 }
 
 .swiper-button-prev{
-  color: $progresso;
+  color: $corFundo2;
 font-size: 55px;
 font-weight: 900;
 }
 
 .autoplay-progress{
-  color: $progresso;
+  color: $corFundo2;
   font-size: 20px;
 font-weight: 900;
 }
-
-
-.imagemCarrosel2{
-  
+.circulo{
+ color: $corFundo2;
 }
 
-svg{
-  color: black;
-}
+

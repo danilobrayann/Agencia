@@ -1,12 +1,4 @@
-/* variavel de cores*/
-
-$corFundo:rgb(61, 62, 232);
-$corDoTexto:white;
-$corHedar:#DC143C;
-$corHeda2:#363636;
-$corFundo2: #00FF7F;
-
-/* variavel de cores*/
+@import "../../variables-color/styles.scss";
 
 nav{
     display:flex;
