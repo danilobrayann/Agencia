@@ -64,12 +64,16 @@ background-color:$corFundo2;
         justify-content: space-around;
         align-items: center;
         width: 10vw;
+      margin-left: 55px;
+       
         
-    }
-    .imagemSocial{
-        width: 1.8vw;
-        &:hover{
-            background-color: white;
-            border:  solid $corHeda2 3px;
+        i{
+            font-size: 25px;
+            &:hover{
+                color:$corDoTexto;
+            }
         }
+
     }
+   
+    
