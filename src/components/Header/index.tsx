@@ -23,13 +23,13 @@ export default function Header() {
         </ul>
         <div className="redesocial">
           <a href="" target="blank">
-          <i className='bx bxl-tiktok'></i>
+          <i className='bx bxl-tiktok bx-flashing'  ></i>
           </a>
           <a href="" target="blank">
-          <i className='bx bxl-instagram'  ></i>
+          <i className='bx bxl-instagram bx-flashing '  ></i>
           </a>
           <a href="https://www.linkedin.com/company/101551231/admin/feed/posts/?feedType=following" target="blank">
-          <i className='bx bxl-linkedin'  ></i>
+          <i className='bx bxl-linkedin  bx-flashing'  ></i>
           </a>
         </div>
       </nav>
