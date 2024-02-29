@@ -28,7 +28,7 @@ export default function Header() {
           <a href="" target="blank">
           <i className='bx bxl-instagram'  ></i>
           </a>
-          <a href="" target="blank">
+          <a href="https://www.linkedin.com/company/101551231/admin/feed/posts/?feedType=following" target="blank">
           <i className='bx bxl-linkedin'  ></i>
           </a>
         </div>

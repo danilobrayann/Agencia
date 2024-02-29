@@ -11,6 +11,8 @@ nav{
    
     img{
         width: 5vw;
+        padding: 0 15px;
+        margin-right: 65px;
     }
 background-color:$corFundo2;
 
@@ -63,14 +65,16 @@ background-color:$corFundo2;
         display: flex;
         justify-content: space-around;
         align-items: center;
-        width: 10vw;
+        width: 8vw;
       margin-left: 55px;
        
         
         i{
-            font-size: 25px;
+            font-size: 23px;
             &:hover{
                 color:$corDoTexto;
+               
+               
             }
         }
 
