@@ -1,5 +1,8 @@
-
-.Parceria{
-    border:  solid red 3px;
-    height: 100vh;
+@import "../../variables-color/styles.scss";
+.Parceria {
+  height: 100vh;
+  background: $corBlack;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }

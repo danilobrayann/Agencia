@@ -7,7 +7,7 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import videos from "../../assets/AE Digital - Agência de Marketing Digital.mp4";
 import facebok from "../../assets/Business-Facebook-Cover-13.png";
 import cursos from "../../assets/cursos.png";
-import inovacao from '../../assets/inovacao.png'
+import inovacao from "../../assets/inovacao.png";
 import "./style.scss";
 
 interface AppProps {}

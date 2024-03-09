@@ -24,7 +24,7 @@ export default function Header() {
         <div className="redesocial">
           <a href="" target="blank">
           <i className='bx bxl-tiktok bx-flashing'  ></i>
-          </a>
+          </a>    
           <a href="" target="blank">
           <i className='bx bxl-instagram bx-flashing '  ></i>
           </a>
