@@ -5,10 +5,10 @@ $corDoTexto: white;
 $corHedar: #dc143c;
 $corHeda2: #363636;
 $corFundo2: #00ff7f;
+
+/* variavel de cores gradinetes*/
 $corBlack: linear-gradient(to left, #231f20, #00ff7f, #231f20);
 
 .elemento {
   background: $corBlack;
 }
-
-/* variavel de cores*/
