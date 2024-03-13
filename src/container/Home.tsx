@@ -3,7 +3,7 @@ import Header from "../components/Header"
 import Carrossel from '../components/Carrossel'
 import ContatoFlutuante from '../components/ContatoFlutuante/index'
 import Parceria from "../components/SectionParceria"
-
+import Servicos from "../components/servicos"
 export default function Home () {
 
 return (
@@ -13,6 +13,7 @@ return (
    <Carrossel/>
    <ContatoFlutuante/>
    <Parceria/>
+   <Servicos/>
     </>
 )
 

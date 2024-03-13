@@ -9,7 +9,7 @@ export default function Header() {
        
         <ul>
           <a href="">HOME</a>
-          <a href="">NOSSOS SERVIÇOS</a>
+          <a href="#servico">NOSSOS SERVIÇOS</a>
           <a href="">PROJETOS</a>
           <a href="">WEB STORIES</a>
           <a href=""></a>
