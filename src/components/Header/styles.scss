@@ -73,3 +73,11 @@ ul {
     }
   }
 }
+
+@media (max-width: 1080px){
+  nav{
+    ul{
+      display: none;
+    }
+  }
+}

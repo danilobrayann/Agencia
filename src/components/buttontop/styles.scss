@@ -1,0 +1,31 @@
+/* ScrollToTopButton.css */
+.scroll-to-top-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    opacity: 0;
+    visibility: hidden;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+  
+  .scroll-to-top-button.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+
+  .ButtonTopo{
+    width: 2vw;
+  }
+
+  @media (max-width: 1200px){
+    .ButtonTopo{
+      width: 3vw;
+    }
+  }

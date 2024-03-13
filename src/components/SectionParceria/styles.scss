@@ -5,10 +5,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  img {
+    width: 35vw;
+  }
 }
 .about {
   width: 35.5rem;
-  height: 35.5rem;
+  height: 15.5rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   p {
     font-size: 1rem;
     margin-bottom: 20px;
@@ -18,7 +25,6 @@
     font-size: 2.8rem;
     color: $corDoTexto;
     font-weight: 900;
-    margin: 20px;
   }
   .buttonConsulta {
     height: 5vh;
@@ -36,5 +42,15 @@
       text-decoration: none;
       font-weight: 600;
     }
+  }
+}
+
+@media (min-width: 1080px) {
+  .Parceria {
+    flex-direction: row;
+   
+  }
+  .about{
+    flex-direction: row;
   }
 }
