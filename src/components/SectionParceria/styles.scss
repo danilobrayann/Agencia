@@ -41,6 +41,13 @@
       color: $corDoTexto;
       text-decoration: none;
       font-weight: 600;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 15px;
+      .mensagem{
+        width: 2vw;
+      }
     }
   }
 }

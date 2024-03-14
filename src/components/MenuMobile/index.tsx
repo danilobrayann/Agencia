@@ -1,15 +1,23 @@
-import logo from "../../assets/Logo-conativa-1200x542.png";
-import "./styles.scss";
-import { IoFilterSharp } from "react-icons/io5";
+import { Container } from "./styles";
+import { IoClose } from "react-icons/io5";
+import logo from "../../assets/Logo-conativa-1200x542.png"
+import { useEffect } from "react";
 
 
-interface HeaderProps {
-  setmenuInvisibal: React.Dispatch<React.SetStateAction<boolean>>;
-}
+interface Menu {
+    menuInvisibal: boolean;
+    setmenuInvisibal: React.Dispatch<React.SetStateAction<boolean>>;
+  }
 
-export default function Header({setmenuInvisibal}: HeaderProps) {
+export default function MenuMobile({ menuInvisibal, setmenuInvisibal }: Menu) {
+    useEffect(()=>{
+document.body.style.overflowY = menuInvisibal ? 'hidden' :   'auto'
+
+
+    } ,[menuInvisibal]);
   return (
-    <>
+    <Container isvisible={menuInvisibal}>
+      <IoClose size={45}      onClick={()=> setmenuInvisibal(false)}/>
       <nav>
         <img src={logo} alt="logo" />
        
@@ -38,8 +46,7 @@ export default function Header({setmenuInvisibal}: HeaderProps) {
           <i className='bx bxl-linkedin  bx-flashing'  ></i>
           </a>
         </div>
-        <IoFilterSharp size={45}  onClick={()=> setmenuInvisibal(true)} />
       </nav>
-    </>
+    </Container>
   );
 }
