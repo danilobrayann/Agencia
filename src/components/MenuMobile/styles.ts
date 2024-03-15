@@ -4,7 +4,7 @@ interface ContainerProps {
 }
 export const Container = styled.div<ContainerProps>`
   position: absolute;
-  position:fixed;
+  position: fixed;
   width: 100%;
   height: 100%;
   backdrop-filter: blur(3px);
@@ -20,7 +20,7 @@ export const Container = styled.div<ContainerProps>`
   opacity: 0;
   pointer-events: none;
   transition: 0.5s;
-  
+
   background: rgb(2, 0, 36);
   background: linear-gradient(
     83deg,
@@ -33,10 +33,10 @@ export const Container = styled.div<ContainerProps>`
     position: absolute;
     top: 1rem;
     right: 1rem;
-   cursor: pointer;
-   transform: rotate(45deg);
-   transition: .7s;
-   z-index:999;
+    cursor: pointer;
+    transform: rotate(45deg);
+    transition: 0.7s;
+    z-index: 999;
   }
   nav {
     display: flex;
@@ -61,6 +61,10 @@ export const Container = styled.div<ContainerProps>`
       margin: 0;
     }
 
+    .Mulher {
+      width: 25vw;
+    }
+
     ul {
       display: flex;
       justify-content: center;
@@ -68,6 +72,12 @@ export const Container = styled.div<ContainerProps>`
       flex-direction: column;
       border: none;
       gap: 2rem;
+      a {
+        &:hover {
+          color: #00ff7e;
+          background-color: transparent;
+        }
+      }
     }
     .redesocial {
       display: flex;
@@ -87,10 +97,10 @@ export const Container = styled.div<ContainerProps>`
       opacity: 1;
       pointer-events: auto;
       transform: translateY(0px);
-      >svg{
-        transform: rotate(0deg)
+      > svg {
+        transform: rotate(0deg);
       }
-      nav{
+      nav {
         transform: scale(1);
       }
     `}
