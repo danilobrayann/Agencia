@@ -46,11 +46,14 @@ const App: React.FC<AppProps> = () => {
         className="mySwiper"
         grabCursor={true}
       >
-        <SwiperSlide>
+        <SwiperSlide >
+<div className="Groud">
           <video autoPlay loop muted>
             <source src={videos} type="video/mp4" />
           </video>
+         
           <div className="slide-text">{/* Add your content here */}</div>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
           <img src={facebok} alt="" className="imagemCarrosel2" />

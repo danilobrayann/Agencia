@@ -1,4 +1,3 @@
-
 import Header from "../../components/Header";
 import Carrossel from "../../components/Carrossel";
 import ContatoFlutuante from "../../components/ContatoFlutuante/index";
@@ -7,12 +6,9 @@ import Servicos from "../../components/servicos";
 import ButtonTop from "../../components/buttontop";
 
 export default function Home() {
-
-
   return (
     <>
-    
-        <Header />
+      <Header />
       <Carrossel />
       <ContatoFlutuante />
       <Parceria />

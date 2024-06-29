@@ -1,4 +1,7 @@
-import logo from "../../assets/Logo-conativa-1200x542.png";
+/*import logo from "../../assets/Logo-conativa-1200x542.png";
+<img src={logo} alt="logo" />
+
+*/
 import "./styles.scss";
 
 
@@ -7,15 +10,25 @@ import "./styles.scss";
 export default function Header() {
   return (
     <>
+  
       <nav>
-        <img src={logo} alt="logo" />
+        <div className="som">
+      <iframe
+      src="https://livemus.com.br/player_lm/index.php?porta=27604&cor=191B1C"
+      frameBorder={0}
+      width="100%"
+      height="95"
+    ></iframe>
+    </div>
+       
        
         <ul>
+       
           <a href="#">HOME</a>
           <a href="#servico">NOSSOS SERVIÇOS</a>
           <a href="">PROJETOS</a>
           <a href="">WEB STORIES</a>
-          <a href=""></a>
+          <a href="">TIME</a>
           <a
             href="https://api.whatsapp.com/send/?phone=5571996738280&text=ol%C3%A1+tudo+bem%2C+me+chamo+Danilo+e+sou+Desenvolvedor&type=phone_number&app_absent=0"
             target="blank"

@@ -1,14 +1,17 @@
 @import "../../variables-color/styles.scss";
-
+.som{
+  width: 100vw;
+  margin-bottom: 1rem;
+}
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 11vh;
+  height: 10vh;
   position: fixed;
   width: 100vw;
   z-index: 9;
-
+flex-direction: column;
   img {
     width: 5vw;
     padding: 0 15px;
@@ -56,7 +59,7 @@ ul {
     font-size: 15px;
     &:hover {
       color: $corHeda2;
-      background-color: $corFundo2;
+      background-color: $corFundo;
       border: $corDoTexto solid 2px;
     }
   }
@@ -73,7 +76,7 @@ ul {
     font-size: 23px;
     color: $corHeda2;
     &:hover {
-      color: $corDoTexto;
+      color: $corFundo2;
     }
   }
 }
