@@ -1,13 +1,10 @@
 import logo from "../../assets/Logo-conativa-1200x542.png";
 import "./styles.scss";
-import { IoFilterSharp } from "react-icons/io5";
 
 
-interface HeaderProps {
-  setmenuInvisibal: React.Dispatch<React.SetStateAction<boolean>>;
-}
 
-export default function Header({setmenuInvisibal}: HeaderProps) {
+
+export default function Header() {
   return (
     <>
       <nav>
@@ -38,7 +35,7 @@ export default function Header({setmenuInvisibal}: HeaderProps) {
           <i className='bx bxl-linkedin  bx-flashing'  ></i>
           </a>
         </div>
-        <IoFilterSharp size={45}  onClick={()=> setmenuInvisibal(true)} />
+      
       </nav>
     </>
   );
